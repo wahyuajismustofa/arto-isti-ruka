@@ -2117,12 +2117,14 @@ section.gift .gift-inner .gift-title h1 {
     font-weight: normal;
     font-family: var(--heading-family);
     color: var(--text-secondary);
+    text-align: center;
 }
 section.gift .gift-inner .gift-title p {
     font-style: italic;
     font-size: calc(1em + 2px);
     margin-top: 0.25em;
     color: var(--text-secondary);
+    text-align: center;
 }
 section.gift .gift-inner .weddingGiftForm {
     margin-bottom: 0.75em;
@@ -2208,6 +2210,89 @@ section.gift span {
     background-color: rgba(var(--button-background-secondary-rgb), .8);
     color: var(--button-text-secondary);
 }
+
+/* Bank */
+.gift-bank-wrap {
+    background-color: var(--background-secondary)#FFFFFF;
+    padding: 40px 24px;
+    overflow: hidden;
+}
+.gift-bank-wrap .bank-item {
+    padding: 0px;
+    align-items: flex-start;
+    display: none;
+}
+.gift-bank-wrap .bank-item.show {
+display: flex
+;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: var(--background-secondary);
+    max-width: 350px;
+    margin: auto;
+}
+/* Bank Detail */
+.gift-bank-wrap .bank-detail {
+    width: 100%;
+    flex-grow: 1;
+    text-align: center;
+}
+.gift-bank-wrap .bank-name {
+    font-size: var(--body-text-size);
+    font-family: var(--body-text-family);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.gift-bank-wrap .bank-account-number-label {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    font-family: var(--body-text-family);
+    font-size: calc(var(--body-text-size));
+    color: var(--text-secondary);
+}
+.gift-bank-wrap .bank-account-number {
+    font-size: var(--body-text-size);
+    font-family: var(--body-text-family);
+    font-weight: 600;
+    word-break: break-all;
+    color: var(--text-primary);
+}
+.gift-bank-wrap .bank-account-number > i {
+    border: 1px solid var(--text-primary);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: var(--body-text-size);
+    margin-left: 2.5em;
+    color: var(--text-primary);
+}
+
+.gift-bank-wrap .bank-account-name-label {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    font-family: var(--body-text-family);
+    font-size: calc(var(--body-text-size));
+    color: var(--text-secondary);
+    margin-bottom: 0.25em;
+}
+.gift-bank-wrap .bank-account-name {
+    font-size: var(--body-text-size);
+    font-family: var(--body-text-family);
+    font-weight: 600;
+    word-break: break-all;
+    color: var(--text-primary);
+}
+
 
 /* Tanpa Nominal Konfigurasi */
 section.gift .gift-inner .weddingGiftForm .gift-details .bank-detail {
@@ -2700,7 +2785,7 @@ form#weddingGiftForm .form-group {
     background-color: rgba(var(--button-background-secondary-rgb), .8) !important;
 }
 
-.wedding-gift-address-label, .inner-address-info{
+.gift-address-label, .inner-address-info{
     font-family: var(--body-text-family);
     font-weight: 500 !important;
     color: var(--text-secondary);

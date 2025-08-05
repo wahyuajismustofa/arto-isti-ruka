@@ -402,13 +402,13 @@ async function buatKomentarDariData() {
 function formatTanggal(isoString) {
   if (!isoString) return "-";
   const tanggal = new Date(isoString);
-  return tanggal.toLocaleString("en-GB", {
+  return tanggal.toLocaleDateString("id-ID", {
     day: "2-digit",
-    month: "short",
+    month: "long",
     year: "numeric",
     hour: "2-digit",
-    minute: "2-digit"
-  }).replace(",", "");
+    minute: "2-digit",
+  });
 }
 
 // Escape HTML untuk keamanan
