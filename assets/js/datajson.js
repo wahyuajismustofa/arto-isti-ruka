@@ -357,7 +357,7 @@ async function buatKomentarDariData() {
       item.style.transitionDuration = "1200ms";
 
       const nama = tamu.nama || "Tamu";
-      const tanggal = formatTanggal(tamu["waktu"]);
+      const tanggal = formatTanggal(tamu["waktu-pesan"]);
       const pesan = tamu.pesan;
 
       item.innerHTML = `
