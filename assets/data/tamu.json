@@ -1,5 +1,5 @@
 {
-  "updated": "16/8/2025, 16.28.27",
+  "updated": "16/8/2025, 16.38.52",
   "tamu": [
     {
       "nama": "Aas asih setiani",
@@ -14,6 +14,13 @@
       "pesan": "Baarakallahu laka wa baarakaa alaika wa jamaa bainakumaa fii khoir",
       "kehadiran": "Hadir",
       "acara": "Resepsi"
+    },
+    {
+      "nama": "Mba dwi",
+      "waktu-pesan": "",
+      "pesan": "",
+      "kehadiran": "Hadir",
+      "acara": "Tidak memilih acara"
     }
   ]
 }
