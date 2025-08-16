@@ -1,5 +1,5 @@
 {
-  "updated": "16/8/2025, 16.38.52",
+  "updated": "16/8/2025, 17.07.11",
   "tamu": [
     {
       "nama": "Aas asih setiani",
@@ -21,6 +21,13 @@
       "pesan": "",
       "kehadiran": "Hadir",
       "acara": "Tidak memilih acara"
+    },
+    {
+      "nama": "Ratna Sri Wahyuni",
+      "waktu-pesan": "",
+      "pesan": "",
+      "kehadiran": "Hadir",
+      "acara": "Akad Nikah"
     }
   ]
 }
