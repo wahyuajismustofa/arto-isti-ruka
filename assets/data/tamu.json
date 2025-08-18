@@ -1,5 +1,5 @@
 {
-  "updated": "18/8/2025, 07.14.03",
+  "updated": "19/8/2025, 05.53.31",
   "tamu": [
     {
       "nama": "Aas asih setiani",
@@ -49,6 +49,13 @@
       "pesan": "Semoga menjadi kluarga yang samawa ?",
       "kehadiran": "",
       "acara": ""
+    },
+    {
+      "nama": "Yuni",
+      "waktu-pesan": "",
+      "pesan": "",
+      "kehadiran": "Tidak Hadir",
+      "acara": "Tidak memilih acara"
     }
   ]
 }
